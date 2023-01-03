@@ -21,7 +21,7 @@ return(
                         <Link to='' className='ms-3'><FaFacebook size={30}/></Link>
                         <Link to='' className='ms-3'><FaInstagram size={30}/></Link>
                         <Link to='' className='ms-3'><FaTwitter size={30}/></Link>
-                        <Link to='' className='ms-3'><FaWhatsapp size={30}/></Link>
+                        <a href='https://api.whatsapp.com/send?phone=5521999999999' target="_blank" className='ms-3'><FaWhatsapp size={30}/></a>
                     </div>
                     <div className='col text-center mt-3'>
                         <p className='p-footer'>Experimente pratos tradicionais da culinária brasileira de forma única. Faça seu pedido agora mesmo e torne-se nosso cliente, aproveite as promoções e bom apetite.</p>

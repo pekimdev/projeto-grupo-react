@@ -1,5 +1,5 @@
 import './Carrousel.css'
-import principal from '../img/imagem-principal.jpg';
+import principal from '../img/imagem-principal.webp';
 
 function Carrousel(){
   return (
