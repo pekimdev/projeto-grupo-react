@@ -29,4 +29,4 @@ caso queira monitorar os arquivos: git status
 git commit -m "first commit"
 git branch -M "nome da sua branch" (ou caso só queria alternar e não criar: git checkout [sua branch]).
 git remote add origin https://github.com/pekim2/projeto-grupo-react.git
-git push -u origin "nome da sua branch"
+git push -u origin nome da sua branch

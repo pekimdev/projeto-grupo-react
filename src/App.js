@@ -10,6 +10,7 @@ import Navbar from './layout/Navbar'
 import Footer from './layout/Footer'
 import Edit from './pages/Edit'
 import Bebidas from './pages/Bebidas'
+import CriarBebida from './pages/CriarBebida'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='criar-pratos' element={<CriarPrato />} />
         <Route path='edit' element={<Edit />} />
         <Route path='bebidas' element={<Bebidas />} />
+        <Route path='criar-bebidas' element={<CriarBebida />} />
       </Routes>
       <Footer />
     </BrowserRouter>

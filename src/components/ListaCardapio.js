@@ -7,7 +7,7 @@ import Loading from '../layout/Loading'
 function ListaCardapio(){
     const [ removeLoading, setRemoveLoading ] = useState(false)
 
-    const [ posts, setPosts ] = useState([])
+    const [posts, setPosts] = useState([])
 
     useEffect(() => {
         setTimeout(() => {
@@ -38,8 +38,8 @@ return(
                     <button className='btn-pedir'>Pedir</button>
                     <button className='btn-delete'>Deletar</button>
                 </div>
-                
             </div>
+            
                 )
             })}
             {!removeLoading && <Loading />}

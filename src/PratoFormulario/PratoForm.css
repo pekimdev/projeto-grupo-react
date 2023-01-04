@@ -3,7 +3,9 @@
     margin-bottom: 6em;
     border: none !important;
 }
-
+.form-controle label{
+    color: #006491
+}
 
 textarea {
     max-height: 100px;
