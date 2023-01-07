@@ -10,14 +10,14 @@
     {
       "titulo": "Acarajé",
       "regiao": "Nordeste",
-      "descricao": "",
+      "descricao": "testando edit 3",
       "imagem": "https://www.penaestrada.blog.br/wp-content/uploads/2021/02/comidas-tipicas-do-brasil-acaraje-768x495.jpg.webp",
       "id": 2
     },
     {
       "titulo": "Barreado",
       "regiao": "Sul",
-      "descricao": "",
+      "descricao": ".",
       "imagem": "https://www.penaestrada.blog.br/wp-content/uploads/2021/02/comidas-tipicas-do-brasil-barreado-768x495.jpg.webp",
       "id": 3
     },
@@ -29,10 +29,10 @@
       "id": 4
     },
     {
-      "titulo": "Feijão Tropeiro",
-      "regiao": "Sudeste",
-      "descricao": "",
+      "titulo": "Feijão tropeiro",
+      "descricao": "tsadsadsadsad",
       "imagem": "https://www.penaestrada.blog.br/wp-content/uploads/2021/02/comidas-tipicas-do-brasil-bolo-de-rolo-768x495.jpg.webp",
+      "regiao": "Sudeste",
       "id": 5
     }
   ],
@@ -47,7 +47,7 @@
     {
       "titulo": "Caipirinha",
       "regiao": "Sudeste",
-      "descricao": "",
+      "descricao": "testando edit.",
       "imagem": "https://img.itdg.com.br/images/recipes/000/128/825/319875/319875_original.jpg",
       "id": 2
     },

@@ -22,8 +22,8 @@ function PratoForm(){
     })
     const addPost = data => axios.post("http://localhost:5000/pratos", data)
     .then(() => {
-        navigate("/");
-        alert('Prato criada com sucesso!');
+        navigate("/cardapio");
+        alert('Prato criado com sucesso!');
     })
 
     .catch (() => {
@@ -59,11 +59,11 @@ function PratoForm(){
             <label htmlFor="regiao">Selecione a região do prato:</label>
                <select name='regiao' {...register("regiao")}>
                <option disabled className='text-center'>Região</option>
-                <option value='nordeste'>Nordeste</option>
-                <option value='sudeste'>Sudeste</option>
-                <option value='norte'>Norte</option>
-                <option value='centro-oeste'>Centro-Oeste</option>
-                <option value='sul'>Sul</option>
+                <option value='Nordeste'>Nordeste</option>
+                <option value='Sudeste'>Sudeste</option>
+                <option value='Norte'>Norte</option>
+                <option value='Centro-oeste'>Centro-Oeste</option>
+                <option value='Sul'>Sul</option>
                </select>
                <p className='error-message'>{errors.regiao?.message}</p>
             

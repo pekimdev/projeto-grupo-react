@@ -8,7 +8,8 @@ import Login from './pages/Login'
 import Cadastro from './pages/Cadastro'
 import Navbar from './layout/Navbar'
 import Footer from './layout/Footer'
-import Edit from './pages/Edit'
+import EditPrato from './pages/EditPrato'
+import EditBebida from './pages/EditBebida'
 import Bebidas from './pages/Bebidas'
 import CriarBebida from './pages/CriarBebida'
 
@@ -24,7 +25,8 @@ function App() {
         <Route path='cadastro' element={<Cadastro />} />
         <Route path='login' element={<Login />} />
         <Route path='criar-pratos' element={<CriarPrato />} />
-        <Route path='edit' element={<Edit />} />
+        <Route path='/edit-prato/:id' element={<EditPrato />} />
+        <Route path='/edit-bebida/:id' element={<EditBebida />} />
         <Route path='bebidas' element={<Bebidas />} />
         <Route path='criar-bebidas' element={<CriarBebida />} />
       </Routes>
