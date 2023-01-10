@@ -1,0 +1,32 @@
+.form-controle{
+    flex-direction: column;
+    margin-bottom: 6em;
+    border: none !important;
+}
+.form-controle label{
+    color: #006491
+}
+
+textarea {
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.form-control input {
+ margin: 1em 0;
+}
+.btn-edit{
+    margin: 1em 2em;
+    border: none;
+    padding: .4em 1em !important;
+    color: white;
+    transition: 0.4s;
+    margin-top: 2em;
+}
+.container{
+    max-width: 400px !important;
+}
+.error-message{
+    margin-top: 1em;
+    color: red;
+}

@@ -1,0 +1,33 @@
+.sombra{
+    box-shadow: 0 0 0.5125rem 0 rgb(0 0 0 / 55%);
+}
+.col img{
+    border-radius: 5px;
+}
+.titulo-verde{
+    color:  #17a413;
+}
+.botao-verde {
+    background-color: #27a213;
+    padding: .4em 1em;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+.titulo-amarelo{
+    color: #ffd031;
+}
+.botao-amarelo{
+    background-color: #ffce27;
+    padding: .4em 1em;
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 0.4s;
+}
+/*cor dos botões no hover*/
+.botao-amarelo:hover{
+    background-color: #c09a1e;
+}
+.botao-verde:hover{
+    background-color: #12790e;
+}

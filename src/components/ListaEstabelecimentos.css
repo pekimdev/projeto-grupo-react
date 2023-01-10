@@ -1,0 +1,22 @@
+
+.btns button{
+    margin: 1em 2em;
+    border: none;
+    padding: .4em 1em;
+    color: white;
+    transition: 0.4s;
+    margin-top: 2em;
+}
+
+.btn-delete{
+    background-color: red;
+}
+.btn-delete:hover{
+    background-color: rgb(185, 0, 0);
+}
+.btn-edit{
+    background-color: #006491;
+}
+.btn-edit:hover{
+    background-color: #003e5a;
+}
