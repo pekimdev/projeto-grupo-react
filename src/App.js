@@ -12,6 +12,8 @@ import EditPrato from './pages/EditPrato'
 import EditBebida from './pages/EditBebida'
 import Bebidas from './pages/Bebidas'
 import CriarBebida from './pages/CriarBebida'
+import CriarEstabelecimento from './pages/CriarEstabelecimento'
+import EditEstabelecimentos from './pages/EditEstabelecimentos'
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
         <Route path='/edit-bebida/:id' element={<EditBebida />} />
         <Route path='bebidas' element={<Bebidas />} />
         <Route path='criar-bebidas' element={<CriarBebida />} />
+        <Route path='criar-estabelecimentos' element={<CriarEstabelecimento/>}/>
+        <Route path='/edit-estabelecimentos/:id' element={<EditEstabelecimentos/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -27,13 +27,8 @@ textarea {
     max-width: 400px !important;
 }
 .error-message{
-    margin-top: 1em;
     color: red;
 }
 .input-radio-bebida{
     margin-left: 1.35em;
 }
-input[type="radio"]:checked{
-    background-color: #ff0000;
-    color: #FFF;
-    }

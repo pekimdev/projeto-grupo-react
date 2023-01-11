@@ -16,7 +16,7 @@ const validarPost = yup.object({
 
 
 
-function Edit(){
+function EditBebida(){
     const {id} = useParams()
 
     let navigate = useNavigate()
@@ -87,4 +87,4 @@ function Edit(){
     )
 }
 
-export default Edit;
+export default EditBebida;

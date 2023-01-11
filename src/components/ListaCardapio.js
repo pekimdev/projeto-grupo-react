@@ -4,6 +4,7 @@ import './ListaCardapio.css'
 import { NavLink } from 'react-router-dom'
 import Loading from '../layout/Loading'
 
+
 function ListaCardapio(){
     const [removeLoading, setRemoveLoading] = useState(false)
 
@@ -20,7 +21,7 @@ function ListaCardapio(){
         .catch(() => {
             console.log("Deu errado")
         })
-    }, 2000)
+    }, 1500)
     }, [])
 
     function deletePostPrato(id){
@@ -29,18 +30,18 @@ function ListaCardapio(){
     }
 return(
     <div>
-        <div className='container-md w-50'>
+        <div className='container-md'>
             {posts.map((post, key) => {
                 return(
                     <div className='row text-center my-5' key={key}>
-                <div className='col'><h2 className='titulo-amarelo'>{post.titulo}</h2><p>{post.descricao}</p></div>
-                <div className='col'><img src={post.imagem} className='w-100 sombra' alt={`Imagem de um prato de ${post.titulo}`}/><p className='mt-2'>Região: {post.regiao}</p></div>
-                <div className="btns">
+                <div className='col'><h2 className='titulo-amarelo'>{post.titulo}</h2><p className='mt-4'>{post.descricao}</p><div className="btns">
                     <NavLink to={{pathname: `/edit-prato/${post.id}`}}>
                     <button className='btn-edit'>Editar</button>
                     </NavLink>
                     <NavLink to='/cadastro'><button className='btn-pedir'>Pedir</button></NavLink>
                     <button className='btn-delete' onClick={() => deletePostPrato(post.id)}>Deletar</button>
+                </div></div>
+                <div className='col'><img src={post.imagem} className='w-75 sombra' alt={`Imagem de um prato de ${post.titulo}`}/><p className='mt-2'>Região: {post.regiao}</p>
                 </div>
             </div>
             

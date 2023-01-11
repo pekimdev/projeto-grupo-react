@@ -1,9 +1,10 @@
 import './Footer.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FaFacebook } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
+import logo2 from '../img/brasucalogo2.png'
 
 function Footer(){
 return(
@@ -26,8 +27,13 @@ return(
                     <div className='col text-center mt-3'>
                         <p className='p-footer'>Experimente pratos tradicionais da culinária brasileira de forma única. Faça seu pedido agora mesmo e torne-se nosso cliente, aproveite as promoções e bom apetite.</p>
                     </div>
+                   
+                    </div>
+                    <div className='text-center'>
+                        <span><p className='d-inline-block'>Brasuca © Todos os direitos reservados. 2023</p><img src={logo2} className='logo2-size'/></span>
                     </div>
                 </div>
+                
         </footer>
 )
 }

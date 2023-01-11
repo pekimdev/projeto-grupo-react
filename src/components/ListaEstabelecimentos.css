@@ -7,12 +7,6 @@
     margin-top: 2em;
 }
 
-.btn-pedir{
-    background-color: #27a213;
-}
-.btn-pedir:hover{
-    background-color: #12790e;
-}
 .btn-delete{
     background-color: red;
 }
@@ -24,4 +18,7 @@
 }
 .btn-edit:hover{
     background-color: #003e5a;
+}
+.card {
+    border: solid .5px #F2E205 !important;
 }

@@ -18,3 +18,7 @@ a{
     box-shadow: 0 0 0.8125rem 0 rgb(0 0 0 / 75%);
     animation: 1s ease-out 0s 1 slow-shadow;
   }
+.logo-size{
+  width: 50px;
+  margin-left: 20px;
+}
