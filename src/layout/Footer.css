@@ -1,0 +1,30 @@
+footer{
+    background-color: #dbdbdb;
+}
+footer .col a:hover{
+    color: #17a413 !important;
+}
+
+.footer-link-color{
+    color: #006491 !important;
+}
+a {
+    color: #006491 !important;
+    transition: 0.4s;
+}
+
+.p-footer{
+    color: #006491 !important;
+}
+/*desbugar a formatação dos links da primeira coluna do footer*/
+.link-debug{
+display: block !important;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.logo2-size{
+    width: 150px;
+}
+.logo3-size{
+    width: 150px;
+}

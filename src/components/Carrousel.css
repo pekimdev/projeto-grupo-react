@@ -1,0 +1,51 @@
+/*escurecer a imagem*/
+.carousel-item img {
+ filter: brightness(40%);
+ }
+/*posicionando o texto dentro do carousel*/
+.posicionar-texto{
+    position: absolute;
+    bottom: 40.25rem;
+    left: 3em;
+    color: #fff;
+}
+.posicionar-texto p{
+    max-width: 700px;
+}
+
+/*RESPONSIVIDADE DO TEXTO DENTRO DO CARROUSEL*/
+@media (max-width: 1240px){
+    .posicionar-texto{
+        bottom: 20rem;
+    }
+}
+@media (max-width: 768px){
+    .posicionar-texto{
+        bottom: 2rem;
+    }
+}
+@media (max-width: 420px){
+    .posicionar-texto{
+        left: 1em;
+        bottom: -2em;
+        width: 30em;
+        height: 20em;
+        font-size: small;
+    }
+    h1 {
+        font-size: large !important;
+    }
+}
+@media (max-width: 320px){
+    .posicionar-texto{
+        left: 0em;
+        bottom: -5em;
+        width: 30em;
+        height: 20em;
+        font-size: small;
+    }
+    h1 {
+        font-size: medium !important;
+    }
+}
+/*FIM DA RESPONSIVIDADE*/
